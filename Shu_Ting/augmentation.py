@@ -1,8 +1,11 @@
 import os
 from PIL import Image
 import torchvision.transforms as transforms
-from torchvision.transforms import functional as F
 import random
+import torch
+
+random.seed(42)
+torch.manual_seed(42)
 
 augmentation = transforms.Compose([
     transforms.RandomApply([
@@ -41,9 +44,14 @@ augmentation = transforms.Compose([
     ], p=0.3),
 ])
 
-input_root = 'train_1'
-output_root = 'augmented_train_1'
+script_dir = os.path.dirname(os.path.abspath(__file__))
+input_root = os.path.join(script_dir, '../train')
+output_root = os.path.join(script_dir, 'augmented_train_1')
 aug_per_image = 5
+
+if not os.path.exists(input_root):
+    raise FileNotFoundError(f"input root not exist: {os.path.abspath(input_root)}")
+
 
 for class_name in os.listdir(input_root):
     input_class_path = os.path.join(input_root, class_name)
