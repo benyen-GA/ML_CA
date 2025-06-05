@@ -1,0 +1,585 @@
+=== Optimizer: SGD, LR: 0.1, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.00      0.00      0.00        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.00      0.00      0.00         5
+      orange       0.30      1.00      0.46        18
+
+    accuracy                           0.30        60
+   macro avg       0.07      0.25      0.12        60
+weighted avg       0.09      0.30      0.14        60
+
+
+=== Optimizer: SGD, LR: 0.1, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       1.00      0.42      0.59        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.09      0.80      0.16         5
+      orange       0.50      0.11      0.18        18
+
+    accuracy                           0.23        60
+   macro avg       0.40      0.33      0.23        60
+weighted avg       0.47      0.23      0.26        60
+
+
+=== Optimizer: SGD, LR: 0.1, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.32      1.00      0.48        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.00      0.00      0.00         5
+      orange       0.00      0.00      0.00        18
+
+    accuracy                           0.32        60
+   macro avg       0.08      0.25      0.12        60
+weighted avg       0.10      0.32      0.15        60
+
+
+=== Optimizer: SGD, LR: 0.05, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.14      1.00      0.24         5
+      orange       0.80      0.22      0.35        18
+
+    accuracy                           0.43        60
+   macro avg       0.47      0.53      0.38        60
+weighted avg       0.55      0.43      0.42        60
+
+
+=== Optimizer: SGD, LR: 0.05, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.93      0.68      0.79        19
+      banana       0.73      0.89      0.80        18
+       mixed       0.33      0.20      0.25         5
+      orange       0.81      0.94      0.87        18
+
+    accuracy                           0.78        60
+   macro avg       0.70      0.68      0.68        60
+weighted avg       0.78      0.78      0.77        60
+
+
+=== Optimizer: SGD, LR: 0.05, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       1.00      0.89      0.94        18
+       mixed       0.45      1.00      0.62         5
+      orange       1.00      0.83      0.91        18
+
+    accuracy                           0.88        60
+   macro avg       0.85      0.90      0.85        60
+weighted avg       0.94      0.88      0.90        60
+
+
+=== Optimizer: SGD, LR: 0.01, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.94      0.94      0.94        18
+       mixed       0.50      0.60      0.55         5
+      orange       0.94      0.89      0.91        18
+
+    accuracy                           0.88        60
+   macro avg       0.82      0.83      0.82        60
+weighted avg       0.89      0.88      0.89        60
+
+
+=== Optimizer: SGD, LR: 0.01, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       1.00      0.78      0.88        18
+       mixed       0.57      0.80      0.67         5
+      orange       0.86      1.00      0.92        18
+
+    accuracy                           0.88        60
+   macro avg       0.84      0.87      0.85        60
+weighted avg       0.90      0.88      0.89        60
+
+
+=== Optimizer: SGD, LR: 0.01, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       0.94      0.89      0.91        18
+       mixed       0.57      0.80      0.67         5
+      orange       0.89      0.89      0.89        18
+
+    accuracy                           0.88        60
+   macro avg       0.84      0.87      0.85        60
+weighted avg       0.90      0.88      0.89        60
+
+
+=== Optimizer: SGD, LR: 0.001, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       0.86      0.67      0.75        18
+       mixed       0.23      0.60      0.33         5
+      orange       0.87      0.72      0.79        18
+
+    accuracy                           0.75        60
+   macro avg       0.72      0.72      0.70        60
+weighted avg       0.84      0.75      0.78        60
+
+
+=== Optimizer: SGD, LR: 0.001, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.91      0.56      0.69        18
+       mixed       0.14      0.60      0.22         5
+      orange       0.88      0.39      0.54        18
+
+    accuracy                           0.62        60
+   macro avg       0.70      0.61      0.59        60
+weighted avg       0.83      0.62      0.67        60
+
+
+=== Optimizer: SGD, LR: 0.001, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       1.00      0.42      0.59        19
+      banana       0.50      0.06      0.10        18
+       mixed       0.10      0.80      0.18         5
+      orange       0.50      0.28      0.36        18
+
+    accuracy                           0.30        60
+   macro avg       0.53      0.39      0.31        60
+weighted avg       0.62      0.30      0.34        60
+
+
+=== Optimizer: SGD, LR: 0.0001, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.00      0.00      0.00        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.10      1.00      0.19         5
+      orange       0.36      0.22      0.28        18
+
+    accuracy                           0.15        60
+   macro avg       0.12      0.31      0.12        60
+weighted avg       0.12      0.15      0.10        60
+
+
+=== Optimizer: SGD, LR: 0.0001, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.00      0.00      0.00        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.00      0.00      0.00         5
+      orange       0.30      1.00      0.46        18
+
+    accuracy                           0.30        60
+   macro avg       0.07      0.25      0.12        60
+weighted avg       0.09      0.30      0.14        60
+
+
+=== Optimizer: SGD, LR: 0.0001, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       1.00      0.11      0.19        19
+      banana       0.32      0.61      0.42        18
+       mixed       0.00      0.00      0.00         5
+      orange       0.46      0.61      0.52        18
+
+    accuracy                           0.40        60
+   macro avg       0.45      0.33      0.28        60
+weighted avg       0.55      0.40      0.34        60
+
+
+=== Optimizer: Adam, LR: 0.01, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.00      0.00      0.00        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.00      0.00      0.00         5
+      orange       0.30      1.00      0.46        18
+
+    accuracy                           0.30        60
+   macro avg       0.07      0.25      0.12        60
+weighted avg       0.09      0.30      0.14        60
+
+
+=== Optimizer: Adam, LR: 0.01, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.00      0.00      0.00        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.00      0.00      0.00         5
+      orange       0.30      1.00      0.46        18
+
+    accuracy                           0.30        60
+   macro avg       0.07      0.25      0.12        60
+weighted avg       0.09      0.30      0.14        60
+
+
+=== Optimizer: Adam, LR: 0.01, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.90      0.95      0.92        19
+      banana       1.00      0.89      0.94        18
+       mixed       0.75      0.60      0.67         5
+      orange       0.90      1.00      0.95        18
+
+    accuracy                           0.92        60
+   macro avg       0.89      0.86      0.87        60
+weighted avg       0.92      0.92      0.91        60
+
+
+=== Optimizer: Adam, LR: 0.005, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.00      0.00      0.00        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.00      0.00      0.00         5
+      orange       0.30      1.00      0.46        18
+
+    accuracy                           0.30        60
+   macro avg       0.07      0.25      0.12        60
+weighted avg       0.09      0.30      0.14        60
+
+
+=== Optimizer: Adam, LR: 0.005, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.77      0.89      0.83        19
+      banana       0.89      0.89      0.89        18
+       mixed       0.29      0.80      0.42         5
+      orange       1.00      0.33      0.50        18
+
+    accuracy                           0.72        60
+   macro avg       0.74      0.73      0.66        60
+weighted avg       0.84      0.72      0.71        60
+
+
+=== Optimizer: Adam, LR: 0.005, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       0.89      0.89      0.89        18
+       mixed       0.60      0.60      0.60         5
+      orange       0.89      0.94      0.92        18
+
+    accuracy                           0.88        60
+   macro avg       0.83      0.83      0.83        60
+weighted avg       0.88      0.88      0.88        60
+
+
+=== Optimizer: Adam, LR: 0.001, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.94      0.83      0.88        18
+       mixed       0.50      0.60      0.55         5
+      orange       0.89      0.94      0.92        18
+
+    accuracy                           0.87        60
+   macro avg       0.81      0.82      0.81        60
+weighted avg       0.87      0.87      0.87        60
+
+
+=== Optimizer: Adam, LR: 0.001, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       0.94      0.83      0.88        18
+       mixed       0.50      0.80      0.62         5
+      orange       0.94      0.94      0.94        18
+
+    accuracy                           0.88        60
+   macro avg       0.83      0.87      0.84        60
+weighted avg       0.91      0.88      0.89        60
+
+
+=== Optimizer: Adam, LR: 0.001, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       0.93      0.78      0.85        18
+       mixed       0.44      0.80      0.57         5
+      orange       0.89      0.89      0.89        18
+
+    accuracy                           0.85        60
+   macro avg       0.80      0.84      0.81        60
+weighted avg       0.88      0.85      0.86        60
+
+
+=== Optimizer: Adam, LR: 0.0005, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       0.94      0.83      0.88        18
+       mixed       0.67      0.80      0.73         5
+      orange       0.85      0.94      0.89        18
+
+    accuracy                           0.88        60
+   macro avg       0.85      0.87      0.86        60
+weighted avg       0.89      0.88      0.88        60
+
+
+=== Optimizer: Adam, LR: 0.0005, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.94      0.94      0.94        18
+       mixed       0.50      0.60      0.55         5
+      orange       0.94      0.89      0.91        18
+
+    accuracy                           0.88        60
+   macro avg       0.82      0.83      0.82        60
+weighted avg       0.89      0.88      0.89        60
+
+
+=== Optimizer: Adam, LR: 0.0005, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.89      0.92        19
+      banana       0.94      0.89      0.91        18
+       mixed       0.67      0.80      0.73         5
+      orange       0.89      0.94      0.92        18
+
+    accuracy                           0.90        60
+   macro avg       0.86      0.88      0.87        60
+weighted avg       0.91      0.90      0.90        60
+
+
+=== Optimizer: Adam, LR: 0.0001, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.93      0.72      0.81        18
+       mixed       0.40      0.80      0.53         5
+      orange       0.94      0.89      0.91        18
+
+    accuracy                           0.83        60
+   macro avg       0.79      0.83      0.79        60
+weighted avg       0.88      0.83      0.85        60
+
+
+=== Optimizer: Adam, LR: 0.0001, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.92      0.67      0.77        18
+       mixed       0.27      0.80      0.40         5
+      orange       1.00      0.72      0.84        18
+
+    accuracy                           0.77        60
+   macro avg       0.77      0.77      0.73        60
+weighted avg       0.88      0.77      0.80        60
+
+
+=== Optimizer: Adam, LR: 0.0001, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.84      0.86        19
+      banana       0.93      0.72      0.81        18
+       mixed       0.36      0.80      0.50         5
+      orange       0.94      0.89      0.91        18
+
+    accuracy                           0.82        60
+   macro avg       0.78      0.81      0.77        60
+weighted avg       0.87      0.82      0.83        60
+
+
+=== Optimizer: AdamW, LR: 0.01, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.48      0.89      0.63        18
+       mixed       0.40      0.40      0.40         5
+      orange       0.33      0.06      0.10        18
+
+    accuracy                           0.60        60
+   macro avg       0.53      0.56      0.50        60
+weighted avg       0.56      0.60      0.53        60
+
+
+=== Optimizer: AdamW, LR: 0.01, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.95      0.95      0.95        19
+      banana       0.58      0.39      0.47        18
+       mixed       0.22      0.40      0.29         5
+      orange       0.75      0.83      0.79        18
+
+    accuracy                           0.70        60
+   macro avg       0.63      0.64      0.62        60
+weighted avg       0.72      0.70      0.70        60
+
+
+=== Optimizer: AdamW, LR: 0.01, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.00      0.00      0.00        19
+      banana       0.00      0.00      0.00        18
+       mixed       0.00      0.00      0.00         5
+      orange       0.30      1.00      0.46        18
+
+    accuracy                           0.30        60
+   macro avg       0.07      0.25      0.12        60
+weighted avg       0.09      0.30      0.14        60
+
+
+=== Optimizer: AdamW, LR: 0.005, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.90      1.00      0.95        19
+      banana       0.89      0.94      0.92        18
+       mixed       0.67      0.40      0.50         5
+      orange       0.94      0.89      0.91        18
+
+    accuracy                           0.90        60
+   macro avg       0.85      0.81      0.82        60
+weighted avg       0.89      0.90      0.89        60
+
+
+=== Optimizer: AdamW, LR: 0.005, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.88      0.78      0.82        18
+       mixed       0.40      0.80      0.53         5
+      orange       0.93      0.78      0.85        18
+
+    accuracy                           0.82        60
+   macro avg       0.78      0.81      0.78        60
+weighted avg       0.86      0.82      0.83        60
+
+
+=== Optimizer: AdamW, LR: 0.005, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.95      0.95      0.95        19
+      banana       0.94      0.94      0.94        18
+       mixed       0.29      0.40      0.33         5
+      orange       0.94      0.83      0.88        18
+
+    accuracy                           0.87        60
+   macro avg       0.78      0.78      0.78        60
+weighted avg       0.89      0.87      0.88        60
+
+
+=== Optimizer: AdamW, LR: 0.001, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.94      0.89      0.91        18
+       mixed       0.60      0.60      0.60         5
+      orange       0.89      0.94      0.92        18
+
+    accuracy                           0.88        60
+   macro avg       0.83      0.83      0.83        60
+weighted avg       0.88      0.88      0.88        60
+
+
+=== Optimizer: AdamW, LR: 0.001, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.81      0.89      0.85        19
+      banana       0.94      0.83      0.88        18
+       mixed       0.40      0.40      0.40         5
+      orange       0.89      0.89      0.89        18
+
+    accuracy                           0.83        60
+   macro avg       0.76      0.75      0.76        60
+weighted avg       0.84      0.83      0.83        60
+
+
+=== Optimizer: AdamW, LR: 0.001, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.94      0.83      0.88        18
+       mixed       0.57      0.80      0.67         5
+      orange       0.89      0.89      0.89        18
+
+    accuracy                           0.87        60
+   macro avg       0.82      0.85      0.83        60
+weighted avg       0.88      0.87      0.87        60
+
+
+=== Optimizer: AdamW, LR: 0.0005, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.85      0.89      0.87        19
+      banana       0.93      0.78      0.85        18
+       mixed       0.44      0.80      0.57         5
+      orange       1.00      0.89      0.94        18
+
+    accuracy                           0.85        60
+   macro avg       0.81      0.84      0.81        60
+weighted avg       0.89      0.85      0.86        60
+
+
+=== Optimizer: AdamW, LR: 0.0005, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.94      0.83      0.88        18
+       mixed       0.50      0.60      0.55         5
+      orange       0.89      0.94      0.92        18
+
+    accuracy                           0.87        60
+   macro avg       0.81      0.82      0.81        60
+weighted avg       0.87      0.87      0.87        60
+
+
+=== Optimizer: AdamW, LR: 0.0005, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.94      0.89      0.91        18
+       mixed       0.50      0.60      0.55         5
+      orange       0.89      0.89      0.89        18
+
+    accuracy                           0.87        60
+   macro avg       0.81      0.82      0.81        60
+weighted avg       0.87      0.87      0.87        60
+
+
+=== Optimizer: AdamW, LR: 0.0001, Decay: 0.9 ===
+              precision    recall  f1-score   support
+
+       apple       0.94      0.84      0.89        19
+      banana       0.88      0.83      0.86        18
+       mixed       0.38      0.60      0.46         5
+      orange       0.89      0.89      0.89        18
+
+    accuracy                           0.83        60
+   macro avg       0.77      0.79      0.77        60
+weighted avg       0.86      0.83      0.84        60
+
+
+=== Optimizer: AdamW, LR: 0.0001, Decay: 0.7 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.89      0.89        19
+      banana       0.92      0.67      0.77        18
+       mixed       0.29      0.80      0.42         5
+      orange       1.00      0.78      0.88        18
+
+    accuracy                           0.78        60
+   macro avg       0.78      0.78      0.74        60
+weighted avg       0.88      0.78      0.81        60
+
+
+=== Optimizer: AdamW, LR: 0.0001, Decay: 0.5 ===
+              precision    recall  f1-score   support
+
+       apple       0.89      0.84      0.86        19
+      banana       0.92      0.67      0.77        18
+       mixed       0.29      0.80      0.42         5
+      orange       1.00      0.83      0.91        18
+
+    accuracy                           0.78        60
+   macro avg       0.77      0.79      0.74        60
+weighted avg       0.88      0.78      0.81        60
+
+
